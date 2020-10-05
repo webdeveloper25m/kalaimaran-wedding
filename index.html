@@ -1,0 +1,368 @@
+
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="author" content="webthemez">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wedding Function</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/font-icon.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" type="text/css" href="css/style4.css" />
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
+</head>
+<style>
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+     .fa-arrow-alt-circle-right{
+     font-size:50px;
+     padding:10px;
+   
+   
+    }
+    .fa-arrow-alt-circle-right:hover{
+      background:yellow;
+        transform: scale(1.5);
+    }
+    .box{
+      width:400px;
+      height:60px;
+      color:red;
+      text-align:center;
+      display:inline-block;
+      border:2px solid black;
+}
+  .box:hover{
+    transform:scale(1.2);
+    background-color:gray;
+    }
+.footer{
+  margin-right:0px;
+
+}
+.text::after{
+  content:"";
+  width:100px;
+  height:30px;
+  transform:translate(15px,15px);
+  font-weight:underline;
+}
+.house:hover{
+   transform:rotate3d(360deg);
+   font-family:lato;
+}
+
+.role{
+  transform:scale(100px,100px);
+  transition-duration: 35s  ease;
+}
+
+</style>
+<body onload="myFunction()" style="margin:0;">
+  <div id="loader"></div>
+<!-- header section -->
+<div style="display:none" class="role" id="role">
+<section class="banner" role="banner" id="home">
+  <header id="header">
+    <div class="header-content clearfix"> <a class="logo" href="index.html">Partner</a>
+      <nav class="navigation" role="navigation">
+        <ul class="primary-nav">
+		 <li><a href="#home">Home</a></li>
+		  <li><a href="#intro">Bride & Groom</a></li>
+          <li><a href="#services">Events</a></li>
+          <li><a href="#content-3-10">Family</a></li> 
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+  </header>
+  <!-- banner text --> 
+ 
+<div id="first-slider">
+    <div id="carousel-example-generic" class="carousel slide carousel-fade">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <!-- Item 1 -->
+            <div class="item active slide1">
+                <div class="row"><div class="container"> 
+                    <div class="col-md-9 text-left">
+                        <h3 data-animation="animated bounceInDown">S.Kalaimaran & G.Poomari</h3>
+                        <h4 data-animation="animated bounceInUp">Are getting married on sunday Octobar 2020, Groom's Residence,Bala Arunchala Puram </h4>             
+                     </div>
+                </div></div>
+             </div> 
+            <!-- Item 2 -->
+            <div class="item slide2">
+                <div class="row"><div class="container">
+                    <div class="col-md-7 text-left">
+                        <h3 data-animation="animated bounceInDown">Our Wedding Day</h3>
+                        
+                     </div> 
+                </div></div>
+            </div>
+            <!-- Item 3 -->
+            <div class="item slide3">
+                <div class="row"><div class="container">
+                    <div class="col-md-7 text-left">
+                        <h3 data-animation="animated bounceInDown">Join With Us</h3>
+                    </div>  
+                </div></div>
+            </div>     
+        </div>
+        <!-- End Wrapper for slides-->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <i class="fa fa-angle-left"></i><span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <i class="fa fa-angle-right"></i><span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+  
+</section>
+<!-- header section --> 
+<!-- intro section -->
+<section id="intro" class="section intro">
+  <div class="container">
+    <div class="col-md-10 col-md-offset-1 text-center">
+      <h3>Bride & Groom</h3>
+      <p>Cordially invite your esteemed presencewith your family and friends on the auspicious occassion of the Marriage of selvan S.Kalaimaran & Selvi.G.Poomari</p>
+    </div>
+  </div>
+</section>
+<!-- intro section --> 
+<!-- section -->
+<section id="Bride_Groom">
+  <div class="container"> 
+    <div class="row">  
+            <div id="content24" data-section="content-24" class="data-section"> 
+    		<div class="col-md-6">
+				
+				<img src="images/bride.jpg" alt="bride" class="img-middle"/>
+				<div class="align-center">
+				<h3>S.Kalaimaran M.Tech</h3>
+				<p>(Assistant Engineer,TNEB-Seithur)</p>
+				</div>
+			</div>
+				<div class="col-md-6">  
+				<img src="images/groom.jpg" alt="bride" class="img-middle"/>
+				<div class="align-center">
+				<h3>Selvi.G.Poomari</h3>
+				<p>(Agriculture Officer,O/o Joint Director of Agriculture-Tenkasi)</p>
+				</div>
+			</div> 
+    	</div>
+		</div>    
+  </div>
+</section>
+<!-- section --> 
+<!-- services section -->
+<section id="services" class="services service-section">
+  <div class="container">
+  <div class="section-header">
+                <h2 class="wow fadeInDown animated">Events & Parties</h2>
+                <p class="wow fadeInDown animated"></p>
+            </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-heart"></span>
+        <div class="services-content">
+          <h5>Wedding Ceremony</h5>
+           <p>Groom's Residence<br/> 
+			     Bala Arunachala Puram<br/>
+			     10.30AM - 12.00PM</p>
+	   </div>
+      </div>
+</div>
+  </div>
+</section>
+<!-- services section --> 
+<!--About-->
+<section id="content-3-10" class="content-block data-section nopad content-3-10">
+	<div class="image-container col-sm-6 col-xs-12 pull-left">
+		<div class="background-image-holder">
+
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-6 col-xs-12 content">
+				<div>
+					<h3>Our Family</h3>
+				</div>
+				<div>
+					<p>Mr.K.Samy M.A.,M.Ed(Teacher)</p>
+					<p>(Govt High School,Velayuthapuram)</p>
+          <br>
+          <br>
+          <p>Mrs.K.Kannaki M.Sc.,M.Ed.,(Teacher)
+          <p>Govt Hr.Sec.School,Senthamaram)
+            <br>
+            <br>
+          <p>Mr.R.Ganesan & Mrs.G.Ananthi</p>
+				</div>
+				<a href="#gallery" class="btn btn-outline btn-outline outline-dark">Our Portfolio</a>
+			</div>
+		</div><!-- /.row-->
+	</div><!-- /.container -->
+</section>
+
+
+
+
+<!-- gallery section -->
+<section id="gallery" class="gallery section">
+  <div class="container-fluid">
+    <div class="section-header">
+                <h2 class="wow fadeInDown animated">Gallery</h2>
+                
+            </div>
+    <div class="row no-gutter">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/01.jpg" class="work-box"> <img src="images/portfolio/01.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+             <p><span class="icon icon-magnifying-glass"></span></p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/02.jpg" class="work-box"> <img src="images/portfolio/02.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <p><span class="icon icon-magnifying-glass"></span></p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/03.jpg" class="work-box"> <img src="images/portfolio/03.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <p><span class="icon icon-magnifying-glass"></span></p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/04.jpg" class="work-box"> <img src="images/portfolio/04.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption"> 
+            <p><span class="icon icon-magnifying-glass"></span></p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+  
+  </div>
+</section>
+<!-- gallery section --> 
+
+
+<!-- contact section -->
+<section id="contact" class="section">
+  <div class="container">
+      <div class="section-header">
+                <h2 class="wow fadeInDown animated">Way to Reach Our Home</h2>
+              </div>
+    
+  </div>
+</section>
+<!-- contact section --> 
+<!-- Footer section -->
+<footer class="footer">
+<div class="container">
+<div id="map-row" class="row">
+    <div class="col-xs-7">    
+    	<div class="mapouter"><div class="gmap_canvas"><iframe width="800" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Bala%20Arunachalapuram%2C%20Tamil%20Nadu%20627751&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">embedding google maps into website</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:800px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:800px;}</style></div></div>
+          <div class="col-xs-4" style="background-color:#fff;">
+
+          <pre  style="background-color: #DB4766;height: 72vh;width: 40.5vw; color: white">
+            Kalai maran
+            BalaArunchalaPuram
+            Nellai,tamilnadu,
+            pincode-627751
+            ph:<strong>9360094354</strong>
+          </pre>
+     </div>
+	 </div>
+</div>
+
+</footer>
+</div>
+<!-- Footer section --> 
+<!-- JS FILES --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.flexslider-min.js"></script> 
+<script src="js/jquery.fancybox.pack.js"></script> 
+<script src="js/retina.min.js"></script> 
+<script src="js/modernizr.js"></script> 
+<script src="js/main.js"></script> 
+<script type="text/javascript" src="js/jquery.contact.js"></script> 
+ <script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 1000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("role").style.display = "block";
+}
+</script>
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    
+
+</body>
+</html>
